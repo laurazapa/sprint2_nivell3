@@ -1,0 +1,25 @@
+// custom variables
+$primary: #5265E1;
+$secondary: #FA5959;
+$info: #1B2F59;
+
+%cardrelative {
+    position: relative;
+}
+.cardrelative{
+    @extend %cardrelative;
+
+    &:nth-child(1){
+        top: -40px;
+    }
+    &:nth-child(2){
+        top: 0px;
+    }
+    &:nth-child(3){
+        top: 40px;
+    }
+}
+
+
+// import bootstrap files
+@import "../node_modules/bootstrap/scss/bootstrap";

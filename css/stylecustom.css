@@ -1,0 +1,68 @@
+#myTab li a { border-color: transparent; color: rgb(120,120,120);}
+
+#myTab li a:hover { color: #FA5959;}
+
+#myTab li .active{
+    border-bottom: 3px solid #FA5959;
+    color: rgb(50,50,50);
+}
+
+/*
+#chrome, #firefox, #opera{
+    position: relative;
+}
+#chrome .card{
+    position: relative;
+    top: -50px;
+}
+#firefox .card{
+    position: relative;
+    top: -20px;
+}
+#opera .card{
+    position: relative;
+    top: 10px;
+}
+*/
+
+.btn-secondary{
+    color: #fff;
+}
+
+.btn-secondary:hover{
+    background-color: #fff;
+    border-color: #FA5959;
+    color: #FA5959;
+    box-shadow: 4px 4px 5px rgba(150,150,150,0.8);
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    border-color: #5265E1;
+    color: #5265E1;
+}
+
+.btn-light:hover{
+    background-color: #fff;
+    border-color: #1B2F59;
+    color: #1B2F59;
+}
+
+.nav-link{
+    color: #aaa;
+}
+
+#myTab li a:hover,
+#mainmenu li a:hover,
+#fqa button:hover,
+#footermenu a:hover{
+    color: #FA5959;
+}
+
+svg{
+    fill: #fff;
+}
+svg:hover {
+    fill: #FA5959;
+}
+
